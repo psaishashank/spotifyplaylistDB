@@ -1,0 +1,6 @@
+google-cloud-secret-manager
+google-cloud-bigquery
+google-cloud-pubsub
+pandas
+pandas-gbq
+python-dotenv
