@@ -185,6 +185,8 @@ def parse_tracks(tracks: list,bq_tracks: set,artists_in_bq: set,match: int,spoti
         if track_id in bq_tracks:
             count+=1
             continue
+        if track["name"] == "":
+            continue    
 
         track_data["spotify_track_id"] = track_id
         track_data["track_name"] = track["name"]
